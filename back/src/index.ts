@@ -9,12 +9,17 @@ import { configurePassport } from "./config/passportConfig";
 import http from "http";
 import { Server } from "socket.io";
 import { configureMessageSocket } from "./messages";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
+const urls = ["http://localhost:3000", "http://localhost:3001"];
+
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: urls,
     credentials: true,
   })
 );
@@ -25,11 +30,11 @@ connectDB();
 
 configurePassport();
 
-const port = 3333;
+const port = process.env.PORT || 3333;
 
 app.use(
   session({
-    secret: "sua-chave-secreta",
+    secret: process.env.SECRET_KEY || "secret",
     resave: false,
     saveUninitialized: false,
     cookie: {
@@ -50,7 +55,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: urls,
     credentials: true,
   },
 });

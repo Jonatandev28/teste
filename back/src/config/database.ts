@@ -5,11 +5,11 @@ dotenv.config();
 
 const connectDB = async () => {
   try {
-    if (!process.env.DATABASE_URL) {
-      throw new Error("DATABASE_URL is not defined in .env file");
+    if (!process.env.MONGODB_URI) {
+      throw new Error("MONGODB_URI is not defined in .env file");
     }
 
-    await mongoose.connect(process.env.DATABASE_URL);
+    await mongoose.connect(process.env.MONGODB_URI);
 
     console.log("Database connection established");
   } catch (err) {

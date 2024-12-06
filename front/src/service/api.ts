@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:3333/api",
+  baseURL: `http://localhost:${process.env.NEXT_PUBLIC_API_PORT}/api`,
   withCredentials: true,
 });

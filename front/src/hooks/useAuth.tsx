@@ -50,7 +50,6 @@ const useAuth = create<AuthState>()(
       }
 
     }),
-
     {
       name: '@teste-opa',
       storage: createJSONStorage(() => localStorage),
