@@ -121,3 +121,13 @@ O projeto está organizado em duas pastas principais:
   <img src="./assets/Screenshot_3.png" alt="Tela de chat" style="width: 49%; height: auto;">
   <img src="./assets/Screenshot_4.png" alt="Tela de chat 2" style="width: 49%; height: auto;">
 </div>
+
+## Considerações Importantes
+
+-- **Para garantir o funcionamento ideal do sistema, recomenda-se utilizar dois navegadores diferentes. Isso evita possíveis conflitos de cookies e problemas na comunicação em tempo real.**
+
+-- **Busquei manter o projeto o mais simples e eficiente possível, com o mínimo de dependências e custos associados ao uso.**
+
+-- **Caso tenha dúvidas ou encontre dificuldades, estou à disposição para ajudar e esclarecer quaisquer questões.**
+
+-- **Se quiser entrar em contato comigo, pode me encontrar no [Linkedin](https://www.linkedin.com/in/leonardo-gomes-3a9b2b21a/) ou pelo [Whatsapp](https://whatsa.me/5549984356670)**
