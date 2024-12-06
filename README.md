@@ -116,8 +116,8 @@ O projeto está organizado em duas pastas principais:
 ## Fotos
 
 <div style="display: flex; gap: 10px; justify-content: space-between; flex-wrap: wrap;">
-  <img src="./assets/Screenshot_1.png" alt="Tela login" style="width: 25%; height: auto;">
-  <img src="./assets/Screenshot_2.png" alt="Tela de cadastro" style="width: 25%; height: auto;">
-  <img src="./assets/Screenshot_3.png" alt="Tela de chat" style="width: 25%; height: auto;">
-  <img src="./assets/Screenshot_4.png" alt="Tela de chat 2" style="width: 25%; height: auto;">
+  <img src="./assets/Screenshot_1.png" alt="Tela login" style="width: 49%; height: auto;">
+  <img src="./assets/Screenshot_2.png" alt="Tela de cadastro" style="width: 49%; height: auto;">
+  <img src="./assets/Screenshot_3.png" alt="Tela de chat" style="width: 49%; height: auto;">
+  <img src="./assets/Screenshot_4.png" alt="Tela de chat 2" style="width: 49%; height: auto;">
 </div>
