@@ -42,6 +42,7 @@ O projeto está organizado em duas pastas principais:
 
    - Biblioteca: `socket.io` para mensagens em tempo real.
    - Persistência: Mensagens armazenadas no MongoDB.
+     rererrt
 
 4. **Lista de Usuários Online/Offline**
    - Atualização em tempo real usando `socket.io`.
